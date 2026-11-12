@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "abiVersion": 1,
+  "id": "raptoreum",
+  "name": "Raptoreum",
+  "ticker": "RTM",
+  "version": "0.1.9",
+  "kind": "utxo",
+  "networkId": "raptoreum-mainnet",
+  "decimals": 8,
+  "capabilities": [],
+  "runtime": {
+    "type": "legacy"
+  },
+  "nativeRoute": "raptoreum-wallet",
+  "coin": {
+    "id": "raptoreum",
+    "name": "Raptoreum",
+    "ticker": "RTM",
+    "networkId": "raptoreum-mainnet",
+    "supportsMemo": false,
+    "satsPerCoin": 100000000,
+    "utxoReadProfile": "address-index",
+    "cryptoParams": {
+      "p2pkhPrefix": 60,
+      "p2shPrefix": 16,
+      "wifPrefix": 128,
+      "derivationPath": "m/44'/10226'/0'/0/0"
+    }
+  },
+  "icon": "icon.png"
+}
